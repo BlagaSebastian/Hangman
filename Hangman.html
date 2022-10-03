@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="Hangman.css">
+</head>
+<body>
+    <div id="Title">
+        <h1>
+            Hangman
+        </h1>
+    </div>
+    <div id="hangWord">
+        <label for="password">Insert the word that will decide the fate of your friend.</label> <br>
+        <input type="password" id="guessWord">
+        <input type="button" value="Submit" onclick="settWord()">
+        <br><br>
+        <button onClick = "window.location.reload();" style="height: 50px; width: 60px">Restart</button>
+    </div>
+    <div id="container">
+        <canvas id="hangmanDraw" width="180" height="250"></canvas>
+        <div id="hiddenWord"></div>
+        <p id="result"></p>
+    </div>
+    <div id="allLetters">
+        <p id="label"></p>
+    </div>
+    <script src="Hangman.js"></script>
+</body>
+</html>
