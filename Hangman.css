@@ -1,0 +1,24 @@
+#Title {
+    text-align: center;
+}
+
+#hangWord {
+    position: absolute;
+    left: 40px;
+}
+
+#allLetters {
+    position: absolute;
+    bottom: 360px;
+    left: 830px;
+    width: 345px;
+}
+
+#container {
+    text-align: center;
+}
+
+#hangmanDraw {
+    padding: 40px;
+    background-color: burlywood;
+}
