@@ -93,18 +93,18 @@ function draw(part) {
          context.stroke();
          break;
  
-       case 'rightFoot':
-          context.beginPath();
-          context.moveTo(82, 190);
-          context.lineTo(70, 185);
-          context.stroke();
-       break;
- 
        case 'leftLeg':
          context.beginPath();
          context.moveTo(100, 140);
          context.lineTo(125, 190);
          context.stroke();
+       break;
+        
+       case 'rightFoot':
+          context.beginPath();
+          context.moveTo(82, 190);
+          context.lineTo(70, 185);
+          context.stroke();
        break;
  
        case 'leftFoot':
